@@ -1,4 +1,4 @@
-package com.chetan.nosql.bulk.batch;
+package com.gordonfrog.batch;
 
 import java.io.File;
 
@@ -11,8 +11,6 @@ import org.easybatch.extensions.mongodb.MongoDBRecordWriter;
 import org.easybatch.flatfile.DelimitedRecordMapper;
 import org.easybatch.flatfile.FlatFileRecordReader;
 
-import com.chetan.nosql.bulk.product.ProductItemProcessor;
-import com.chetan.nosql.bulk.product.ProductItems;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.Mongo;

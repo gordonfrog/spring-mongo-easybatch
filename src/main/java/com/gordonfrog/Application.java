@@ -1,12 +1,13 @@
-package org.davromalc.tutorial;
+package com.gordonfrog;
 
-import org.davromalc.tutorial.model.Customer;
-import org.davromalc.tutorial.repository.CustomerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
+
+import com.gordonfrog.model.Customer;
+import com.gordonfrog.repository.CustomerRepository;
 
 @EnableMongoRepositories
 @SpringBootApplication

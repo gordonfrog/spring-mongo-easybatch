@@ -1,9 +1,10 @@
-package org.davromalc.tutorial.repository;
+package com.gordonfrog.repository;
 
 import java.util.List;
 
-import org.davromalc.tutorial.model.Customer;
 import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.gordonfrog.model.Customer;
 
 public interface CustomerRepository extends MongoRepository<Customer, String> {
 

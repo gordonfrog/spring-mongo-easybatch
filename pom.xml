@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.davromalc</groupId>
+	<groupId>com.gordonfrog</groupId>
 	<artifactId>spring-boot-mongo-docker</artifactId>
 	<version>${version.number}</version>
 	<packaging>jar</packaging>
@@ -107,8 +107,8 @@
 				<extensions>true</extensions>
 				<configuration>
 					<authConfig> <!-- or use "docker login" up front to store the credentials on the local machine. -->
-						<username>aritranag20</username>
-						<password>1qaz@WSX</password>
+						<username>gordonfrog</username>
+						<password>PositiveDog1</password>
 					</authConfig>
 					<images>
 						<image>

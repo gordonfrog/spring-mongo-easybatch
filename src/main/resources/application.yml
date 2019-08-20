@@ -1,5 +1,7 @@
 spring.data.mongodb:
   database: customers # Database name.
+  host: localhost
+  port: 27017
   uri: mongodb://localhost:27017 # Mongo database URI. Cannot be set with host, port and credentials.
 server:
   port: 8000

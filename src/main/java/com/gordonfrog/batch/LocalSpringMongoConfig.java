@@ -1,4 +1,4 @@
-package com.chetan.nosql.bulk.config;
+package com.gordonfrog.batch;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +9,7 @@ import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
 
 @Configuration
-@PropertySource({"classpath:local-application.properties"})
+@PropertySource({"classpath:application.yml"})
 public class LocalSpringMongoConfig extends AbstractMongoConfiguration {
 
 	@Value("${spring.data.mongodb.database}")
@@ -31,8 +31,8 @@ public class LocalSpringMongoConfig extends AbstractMongoConfiguration {
 	@Override
 	public Mongo mongo() throws Exception {
 		// TODO Auto-generated method stub
-		//return new MongoClient(mongoHost, mongoPort);
-		return null;
+		return new MongoClient(mongoHost, mongoPort);
+		//return null;
 	}
 
 }

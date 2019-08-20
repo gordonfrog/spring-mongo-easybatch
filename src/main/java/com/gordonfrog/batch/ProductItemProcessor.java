@@ -1,4 +1,4 @@
-package com.chetan.nosql.bulk.product;
+package com.gordonfrog.batch;
 
 import org.easybatch.core.processor.RecordProcessor;
 import org.easybatch.core.record.Record;

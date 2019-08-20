@@ -1,9 +1,7 @@
-package org.davromalc.tutorial.controller;
+package com.gordonfrog.controller;
 
 import java.util.List;
 
-import org.davromalc.tutorial.model.Customer;
-import org.davromalc.tutorial.repository.CustomerRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +10,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.gordonfrog.model.Customer;
+import com.gordonfrog.repository.CustomerRepository;
 
 import lombok.extern.slf4j.Slf4j;
 

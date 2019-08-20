@@ -1,4 +1,4 @@
-package com.chetan.nosql.bulk.product;
+package com.gordonfrog.batch;
 
 public class ProductItems  {
 	

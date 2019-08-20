@@ -1,4 +1,4 @@
-package org.davromalc.tutorial.model;
+package com.gordonfrog.model;
 
 import org.springframework.data.annotation.Id;
 
