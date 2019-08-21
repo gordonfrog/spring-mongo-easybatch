@@ -1,5 +1,7 @@
 package com.gordonfrog.model;
 
+import java.util.Date;
+
 import org.springframework.data.annotation.Id;
 
 import lombok.Data;
@@ -10,6 +12,13 @@ public class Customer {
 
     @Id
     public String id;
+    public String firstName;
+    public String lastName;
+    public String title;
+    public String location;
+    public String country;
+    public String phonenumber;
+    public String middleName;
 
     public Customer() {
 		super();
@@ -39,12 +48,6 @@ public class Customer {
 		this.middleName = middleName;
 	}
     
-	public String firstName;
-    public String lastName;
-    public String title;
-    public String location;
-    public String country;
-    public String phonenumber;
-    public String middleName;
+	
 
 }
